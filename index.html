@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Stockery help and support — business inventory and assets on Android & iOS." />
+    <title>Support · Stockery</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top" id="top">
+          <img
+            class="brand-logo"
+            src="images/logo.png"
+            width="40"
+            height="40"
+            alt="Stockery"
+          />
+          <span class="brand-name">Stockery</span>
+        </a>
+        <nav class="nav-links" aria-label="Support sections">
+          <a href="#start">Getting started</a>
+          <a href="#topics">Topics</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <button
+            type="button"
+            class="theme-toggle"
+            id="themeToggle"
+            aria-label="Toggle dark mode"
+            title="Theme"
+          >
+            <span class="icon-sun" aria-hidden="true">☀️</span>
+          </button>
+          <button
+            type="button"
+            class="mobile-nav-toggle"
+            id="drawerOpen"
+            aria-label="Open menu"
+            aria-expanded="false"
+          >
+            ☰
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+      <div class="mobile-drawer-panel">
+        <nav aria-label="Mobile">
+          <a href="#start">Getting started</a>
+          <a href="#topics">Topics</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <h1 id="hero-title">How can we help?</h1>
+        <p class="hero-lead">
+          Stockery is your mobile business asset and inventory app—see what you have, where it is, how much, and what
+          changed. Find answers below or reach our team by email.
+        </p>
+        <div class="metric-row" role="navigation" aria-label="Quick links">
+          <a class="metric-card" href="#start">
+            <div class="label">New here</div>
+            <div class="value">Setup &amp; onboarding</div>
+          </a>
+          <a class="metric-card" href="#topics">
+            <div class="label">In the app</div>
+            <div class="value">Assets, stock &amp; settings</div>
+          </a>
+          <a class="metric-card" href="#faq">
+            <div class="label">Common questions</div>
+            <div class="value">FAQ</div>
+          </a>
+          <a class="metric-card" href="#contact">
+            <div class="label">Still stuck?</div>
+            <div class="value">Email support</div>
+          </a>
+        </div>
+      </section>
+
+      <section class="section" id="start" aria-labelledby="start-title">
+        <h2 class="section-title" id="start-title">Getting started</h2>
+        <div class="card">
+          <h3>Account &amp; first business</h3>
+          <p>
+            Create an account with email and password or Google sign-in. After the welcome flow, choose a
+            <strong>business type</strong>—it sets sensible defaults for categories, units, statuses, and custom
+            fields. You can change all of that later in Settings.
+          </p>
+          <p>
+            You’ll need to add <strong>at least one location</strong> before finishing setup. Locations are where stock
+            is tracked.
+          </p>
+          <div class="chip-row">
+            <span class="chip">Register / login</span>
+            <span class="chip">Business type</span>
+            <span class="chip">First location</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>What Stockery focuses on</h3>
+          <p>
+            Stockery is built for <strong>inventory visibility</strong>: assets, quantities per location, movements, and
+            history. It does <strong>not</strong> include billing, invoicing, barcode scanning, full accounting, or
+            supplier purchase orders.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="topics" aria-labelledby="topics-title">
+        <h2 class="section-title" id="topics-title">Help by topic</h2>
+        <div class="card">
+          <h3>Dashboard</h3>
+          <p>
+            Your home screen shows business name, key metrics (totals, low stock, out of stock), status breakdown, idle
+            items, stock flow trends, and recent activity. Use the FAB to add or remove stock quickly or create a new
+            asset.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Assets</h3>
+          <p>
+            Browse with search, filters (category, status, location, custom dropdowns), sort, and list or grid view. Open
+            an asset for summary, activity, related items in the same category, and files. Edit core fields and manage
+            images from detail.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Stock &amp; movements</h3>
+          <p>
+            Quantities are tracked per <strong>location</strong>. Use quick add/remove from the dashboard or asset
+            detail. Movements (in, out, transfer, adjust) feed into trends and activity where the app connects them.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Activity, analytics &amp; notifications</h3>
+          <p>
+            The Activity tab is your full timeline of changes. Analytics summarizes counts, idle assets, and breakdowns
+            by status. Notifications cover things like low stock, out of stock, activity, and system messages—you can
+            mark read or clear them from the app.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Settings &amp; customization</h3>
+          <p>
+            Update business name and type, then manage <strong>categories</strong> (including parents),
+            <strong>locations</strong>, <strong>statuses</strong> (with colors), <strong>units</strong>, and
+            <strong>custom fields</strong> (text, number, date, dropdown, boolean). Theme (light/dark) lives in Settings
+            too. You can delete your account from Settings when needed.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Offline &amp; connectivity</h3>
+          <p>
+            The app caches data and can show cached content when the network is unreliable. If a full load fails and
+            there’s no cache, you may see an error screen—try again when you’re back online.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="faq" aria-labelledby="faq-title">
+        <h2 class="section-title" id="faq-title">Frequently asked questions</h2>
+        <div class="card">
+          <details class="faq-item">
+            <summary>Can I change my business type after signup?</summary>
+            <p>
+              Yes. Defaults come from the type you pick at onboarding, but categories, locations, statuses, units, and
+              custom fields stay editable in Settings—including changing business type from business setup/settings where
+              the app exposes it.
+            </p>
+          </details>
+          <details class="faq-item">
+            <summary>Where are my photos stored?</summary>
+            <p>
+              Asset images are uploaded to secure cloud storage tied to your account and business, as implemented in the
+              app (e.g. Supabase Storage). You manage them from each asset’s detail screen.
+            </p>
+          </details>
+          <details class="faq-item">
+            <summary>How do I reset my password?</summary>
+            <p>
+              Use the “Forgot password” flow on the login screen. You’ll receive email instructions to set a new password
+              if your account uses email sign-in.
+            </p>
+          </details>
+          <details class="faq-item">
+            <summary>Does Stockery replace my accounting software?</summary>
+            <p>
+              No. Stockery is for tracking what you have and how it moves—not for invoicing, tax accounting, or full
+              financial records.
+            </p>
+          </details>
+          <details class="faq-item">
+            <summary>How do I delete my account?</summary>
+            <p>
+              Open <strong>Settings</strong> in the app and use the delete account option. That removes your app data and
+              account per the app’s implementation (including backend cleanup where configured).
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section class="section" id="contact" aria-labelledby="contact-title">
+        <h2 class="section-title" id="contact-title">Contact us</h2>
+        <div class="card contact-card">
+          <h3>Email support</h3>
+          <p>
+            For bug reports, account issues, or product questions, write to us. Include your app version, device (iOS /
+            Android), and steps to reproduce if you’re reporting a problem.
+          </p>
+          <a
+            class="btn-primary"
+            href="mailto:getstockery@gmail.com?subject=Stockery%20support%20request"
+          >
+            getstockery@gmail.com
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        © <span id="year"></span> Stockery ·
+        <a href="mailto:getstockery@gmail.com?subject=Stockery%20support%20request">getstockery@gmail.com</a>
+      </p>
+    </footer>
+
+    <script>
+      (function () {
+        var storageKey = "stockery-support-theme";
+        var root = document.documentElement;
+        var toggle = document.getElementById("themeToggle");
+
+        function preferred() {
+          return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+
+        function apply(theme) {
+          root.setAttribute("data-theme", theme);
+          if (toggle) {
+            toggle.querySelector(".icon-sun").textContent = theme === "dark" ? "🌙" : "☀️";
+            toggle.setAttribute("aria-label", theme === "dark" ? "Switch to light mode" : "Switch to dark mode");
+          }
+        }
+
+        var saved = localStorage.getItem(storageKey);
+        apply(saved || preferred());
+
+        if (toggle) {
+          toggle.addEventListener("click", function () {
+            var next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+            localStorage.setItem(storageKey, next);
+            apply(next);
+          });
+        }
+
+        window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function (e) {
+          if (!localStorage.getItem(storageKey)) apply(e.matches ? "dark" : "light");
+        });
+
+        document.getElementById("year").textContent = new Date().getFullYear();
+
+        var drawer = document.getElementById("mobileDrawer");
+        var openBtn = document.getElementById("drawerOpen");
+        var panel = drawer ? drawer.querySelector(".mobile-drawer-panel") : null;
+
+        function setDrawer(open) {
+          if (!drawer || !openBtn) return;
+          drawer.classList.toggle("is-open", open);
+          drawer.setAttribute("aria-hidden", open ? "false" : "true");
+          openBtn.setAttribute("aria-expanded", open ? "true" : "false");
+        }
+
+        if (openBtn && drawer) {
+          openBtn.addEventListener("click", function () {
+            setDrawer(!drawer.classList.contains("is-open"));
+          });
+          drawer.addEventListener("click", function (e) {
+            if (e.target === drawer) setDrawer(false);
+          });
+          drawer.querySelectorAll("a").forEach(function (a) {
+            a.addEventListener("click", function () {
+              setDrawer(false);
+            });
+          });
+        }
+      })();
+    </script>
+  </body>
+</html>
